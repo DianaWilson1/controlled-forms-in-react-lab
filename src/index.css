@@ -23,6 +23,7 @@ a:hover {
 }
 
 body {
+  background: #292929;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -64,6 +65,10 @@ form {
 
 input {
   padding: 5px;
+      background: #454343;
+      color: white;
+      border: .5px solid white;
+      margin-bottom: 12px;
 }
 
 .bookshelfDiv {
@@ -108,13 +113,13 @@ input {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
     background-color: #ffffff;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #7e23ff;
+            color: white;
   }
 }
